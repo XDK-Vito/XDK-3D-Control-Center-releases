@@ -31,12 +31,20 @@ Une clé ne marche que sur le PC de son code.
 
 ## Imprimantes prises en charge
 
-Tu ajoutes tes imprimantes toi-même (Paramètres › Mes imprimantes) : type, nom et adresse IP sur ton réseau.
+« Chercher sur mon réseau » (Paramètres › Mes imprimantes) trouve tes imprimantes toutes seules ; sinon, ajoute-les
+à la main : type, nom et adresse IP. Tout passe par ton réseau local.
 
-- **Klipper / Moonraker** (filament) : FLSUN V400 / S1 / T1, Elegoo Neptune 4, Creality K1 / Ender-3 V3 (Klipper),
-  Voron, Sovol SV08… — état, températures, impression en cours, caméra, historique et commandes.
+- **Klipper / Moonraker** (filament) : FLSUN V400 / S1 / T1, Elegoo Neptune 4, Voron, Sovol SV08… — état,
+  températures, caméra, historique et commandes à distance.
+- **Bambu Lab** (X1, P1, A1, H2D) : numéro de série trouvé tout seul, code d'accès à lire sur l'écran de l'imprimante.
+- **Prusa** (MK4, MK3.9, XL, MINI, Core One) avec PrusaLink : mot de passe affiché sur l'écran.
+- **OctoPrint** (Ender-3 et toutes les imprimantes Marlin) : clé API obtenue toute seule (« Demander la clé »).
+- **Creality** K1 / K1 Max / K1C / K2 Plus / Ender-3 V3 / Hi, **Flashforge** Adventurer 5M / 3 / 4 / Finder,
+  **Elegoo Centauri Carbon** : aucun code.
 - **Elegoo Saturn / Mars** (résine, protocole SDCP) : Saturn 3 Ultra, Saturn 4 Ultra, Mars 4 Ultra, Mars 5 Ultra…
-- **Anycubic Kobra 3 Max** et **Anycubic Photon P1 Max** : suivi par le compte Anycubic Cloud.
+- **Anycubic Kobra 3 Max** et **Photon P1 Max** : connectées toutes seules par ton compte Anycubic (Slicer Next).
+
+Les codes d'accès restent sur ton PC : jamais affichés ni exportés.
 
 ## Ce qu'il fait
 
